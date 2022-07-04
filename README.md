@@ -1,2 +1,5 @@
-# keycloack-docker-compose-starter-dev
-Keycloack dev mode starter for docker compose
+# Keycloack docker-compose starter
+
+Starts Keycloak image on port 8080
+Login: user
+Password: bitnami
