@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  keycloak:
+    container_name: keycloak
+    image: docker.io/bitnami/keycloak:latest
+    ports:
+      - "8080:8080"
+    command:
+      ["kc.sh", "start-dev"]
